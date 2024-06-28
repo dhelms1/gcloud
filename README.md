@@ -1,4 +1,5 @@
 # What the project should do
+Overall project is aimed towards getting experience with Google Cloud Platform (GCP) tools. This mainly focuses on integrating a data lake with a data warehouse, cleaning data using PySpark, and training / deploying a machine learning model using the processed data. *Dataset is still to be determined, but should be on the larger size given the tools we are using.*
 
 ### 1. Environment
 - Create GC Projecct
@@ -10,7 +11,7 @@
 
 ### 3. Data Processing
 - Use PySpark to extract data from GCS - clean and transform data.
-- Load cleaned data into BigQuery (connector).
+- Load cleaned data into BigQuery (**data warehouse**).
 
 ### 4. Modeling
 - Use BigQuery SQL to explore and preprocess data, train/test splits.
