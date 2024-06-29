@@ -7,15 +7,15 @@ Overall project is aimed towards getting experience with Google Cloud Platform (
 
 ### 2. Data Collection/Store
 - Gather raw data using compute instance + upload to GCS (**data lake**).
-- Create GCS bucket for raw data.
+  - Create GCS bucket.
 
-### 3. Data Processing
-- Use PySpark to extract data from GCS - clean and transform data.
-- Load cleaned data into BigQuery (**data warehouse**).
+### 3. Data Processing/Analysis
+- Load data into BigQuery (**data warehouse**).
+- Use SQL to clean data set and prepare for ML model.
+  - Create new features and clean existing. 
+- Create queries for visualization, use Looker Studio (**BI tool**).
 
 ### 4. Modeling
-- Use BigQuery SQL to explore and preprocess data, train/test splits.
-  - Queries for feature engineering or normalization   
 - Use BigQuery ML to train model on preprocessed data
 - Use BigQuery ML evaluation metrics + tune.
 
